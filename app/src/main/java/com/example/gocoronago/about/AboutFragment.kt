@@ -14,8 +14,6 @@ import com.example.gocoronago.about.ui.AboutUsScreen
 import com.google.accompanist.pager.ExperimentalPagerApi
 import dagger.hilt.android.AndroidEntryPoint
 
-
-@ExperimentalPagerApi
 @AndroidEntryPoint
 class AboutFragment : Fragment() {
 

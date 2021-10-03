@@ -22,7 +22,6 @@ import kotlinx.android.synthetic.main.total_cases.*
 import kotlinx.android.synthetic.main.total_cured.*
 import kotlinx.android.synthetic.main.total_death.*
 
-@ExperimentalPagerApi
 class MainFragment : BaseFragment<MainFragmentBinding>(), AdapterView.OnItemSelectedListener {
 
     companion object {
