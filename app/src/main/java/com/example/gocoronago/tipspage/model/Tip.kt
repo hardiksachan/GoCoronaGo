@@ -9,7 +9,7 @@ data class Tip(
     @StringRes val stringRes: Int
 )
 
-private val tips = listOf(
+val tipList = listOf(
     Tip(
         R.raw.stay_safe_stay_home,
         R.string.stay_home_text
