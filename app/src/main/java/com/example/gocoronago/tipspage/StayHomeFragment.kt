@@ -1,4 +1,4 @@
-package com.example.gocoronago.stayHome
+package com.example.gocoronago.tipspage
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable

@@ -1,4 +1,4 @@
-package com.example.gocoronago.stayHome
+package com.example.gocoronago.tipspage
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
