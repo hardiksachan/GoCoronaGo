@@ -10,12 +10,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.example.gocoronago.about.AboutFragment
-import com.example.gocoronago.ui.main.MainFragment
+import com.example.gocoronago.tipspage.StayHomeFragment
 import com.github.angads25.toggle.widget.LabeledSwitch
+import com.google.accompanist.pager.ExperimentalPagerApi
 import dagger.hilt.android.AndroidEntryPoint
 
 private var darkMode = true
 
+@ExperimentalPagerApi
 @AndroidEntryPoint
 open class MainActivity : AppCompatActivity() {
 
@@ -25,7 +27,7 @@ open class MainActivity : AppCompatActivity() {
         setContentView(R.layout.main_activity)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
+                .replace(R.id.container, StayHomeFragment.newInstance())
                 .commitNow()
 
         }
