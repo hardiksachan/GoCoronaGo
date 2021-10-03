@@ -11,8 +11,11 @@ import androidx.fragment.app.Fragment
 import com.example.gocoronago.MainActivity
 import com.example.gocoronago.R
 import com.example.gocoronago.about.ui.AboutUsScreen
+import com.google.accompanist.pager.ExperimentalPagerApi
 import dagger.hilt.android.AndroidEntryPoint
 
+
+@ExperimentalPagerApi
 @AndroidEntryPoint
 class AboutFragment : Fragment() {
 
