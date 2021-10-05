@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface IPreferencesRepository {
 
-    val filterPreferencesFlow: Flow<UserPreferences>
+    val userPreferencesFlow: Flow<UserPreferences>
 
     suspend fun updateLanguage(language: Language)
 

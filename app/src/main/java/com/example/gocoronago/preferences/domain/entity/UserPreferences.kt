@@ -8,3 +8,9 @@ data class UserPreferences(
     val theme: ColorTheme,
     val language: Language
 )
+
+val defaultUserPreferences = UserPreferences(
+    country = "India",
+    theme = ColorTheme.LIGHT,
+    language = Language.ENGLISH
+)

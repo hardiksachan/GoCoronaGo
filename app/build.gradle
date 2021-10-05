@@ -88,6 +88,12 @@ dependencies {
     // DataStore
     implementation "androidx.datastore:datastore-preferences:$datastore_version"
 
+    // Local unit tests
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    testImplementation "com.google.truth:truth:$truth_version"
+    testImplementation "io.mockk:mockk:$mockk_version"
+
     //Flipper
     debugImplementation 'com.facebook.flipper:flipper:0.113.0'
     debugImplementation 'com.facebook.soloader:soloader:0.10.1'
