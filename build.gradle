@@ -5,6 +5,7 @@ buildscript {
     ext.compose_version = '1.0.3'
     ext.pager_version = "0.19.0"
     ext.lottie_version = "4.2.0"
+    ext.datastore_version = "1.0.0"
     repositories {
         google()
         jcenter()
