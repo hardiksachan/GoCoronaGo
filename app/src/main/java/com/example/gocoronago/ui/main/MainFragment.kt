@@ -16,6 +16,7 @@ import com.example.gocoronago.base.BaseFragment
 import com.example.gocoronago.base.RequestResult
 import com.example.gocoronago.databinding.MainFragmentBinding
 import com.example.gocoronago.homepage.Summary
+import com.google.accompanist.pager.ExperimentalPagerApi
 import kotlinx.android.synthetic.main.main_fragment.*
 import kotlinx.android.synthetic.main.stay_home.*
 import kotlinx.android.synthetic.main.total_cases.*
