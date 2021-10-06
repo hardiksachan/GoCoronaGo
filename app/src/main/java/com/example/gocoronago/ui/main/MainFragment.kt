@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.airbnb.lottie.LottieAnimationView
@@ -15,13 +16,13 @@ import com.example.gocoronago.base.BaseFragment
 import com.example.gocoronago.base.RequestResult
 import com.example.gocoronago.databinding.MainFragmentBinding
 import com.example.gocoronago.homepage.Summary
-import com.google.accompanist.pager.ExperimentalPagerApi
 import kotlinx.android.synthetic.main.main_fragment.*
 import kotlinx.android.synthetic.main.stay_home.*
 import kotlinx.android.synthetic.main.total_cases.*
 import kotlinx.android.synthetic.main.total_cured.*
 import kotlinx.android.synthetic.main.total_death.*
 
+@ExperimentalAnimationApi
 class MainFragment : BaseFragment<MainFragmentBinding>(), AdapterView.OnItemSelectedListener {
 
     companion object {

@@ -59,6 +59,7 @@ constructor(
         withLoading {
             repository.updateLanguage(newLanguage)
         }
+        resetDialogs()
     }
 
     private suspend fun handleLanguageDropdownClicked() {
@@ -74,6 +75,7 @@ constructor(
         withLoading {
             repository.updateCountry(newCountry)
         }
+        resetDialogs()
     }
 
     private suspend fun handleCountryDropdownClicked() {
